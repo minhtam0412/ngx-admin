@@ -13,6 +13,40 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/iot-dashboard',
   },
   {
+    title: 'SURE',
+    group: true,
+  },
+  {
+    title: 'Data',
+    icon: 'map-outline',
+    children: [
+      {
+        title: '7M',
+        link: '/pages/data/manual7m',
+      },
+    ],
+  },
+  {
+    title: 'Accounting',
+    icon: 'map-outline',
+    children: [
+      {
+        title: 'Incomming',
+        link: '/pages/maps/gmaps',
+      },
+    ],
+  },
+  {
+    title: 'System',
+    icon: 'map-outline',
+    children: [
+      {
+        title: 'Account Management',
+        link: '/pages/maps/gmaps',
+      },
+    ],
+  },
+  {
     title: 'FEATURES',
     group: true,
   },

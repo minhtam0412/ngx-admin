@@ -49,6 +49,11 @@ const routes: Routes = [{
         .then(m => m.MapsModule),
     },
     {
+      path: 'data',
+      loadChildren: () => import('./data/data.module')
+        .then(m => m.DataModule),
+    },
+    {
       path: 'charts',
       loadChildren: () => import('./charts/charts.module')
         .then(m => m.ChartsModule),
